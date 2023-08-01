@@ -20,9 +20,9 @@ from absl import flags
 from ml_collections import config_flags
 import tensorflow as tf
 
-import env_utils
-import models
-import ppo_lib
+from . import env_utils
+from . import models
+from . import ppo_lib
 
 
 FLAGS = flags.FLAGS

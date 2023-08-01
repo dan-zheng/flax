@@ -30,9 +30,9 @@ import ml_collections
 import numpy as np
 import optax
 
-import agent
-import models
-import test_episodes
+from . import agent
+from . import models
+from . import test_episodes
 
 
 @jax.jit

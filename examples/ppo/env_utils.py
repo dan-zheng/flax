@@ -19,7 +19,7 @@ import collections
 import gymnasium as gym
 import numpy as np
 
-import seed_rl_atari_preprocessing
+from . import seed_rl_atari_preprocessing
 
 
 class ClipRewardEnv(gym.RewardWrapper):

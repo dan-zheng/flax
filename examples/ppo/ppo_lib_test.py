@@ -21,10 +21,10 @@ import ml_collections
 import numpy as np
 import numpy.testing as np_testing
 
-import agent
-import env_utils
-import models
-import ppo_lib
+from . import agent
+from . import env_utils
+from . import models
+from . import ppo_lib
 
 
 # test GAE

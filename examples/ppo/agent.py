@@ -23,7 +23,7 @@ import flax
 import jax
 import numpy as np
 
-import env_utils
+from . import env_utils
 
 
 @functools.partial(jax.jit, static_argnums=0)

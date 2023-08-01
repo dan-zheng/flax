@@ -20,8 +20,8 @@ from typing import Any, Callable
 import flax
 import numpy as np
 
-import agent
-import env_utils
+from . import agent
+from . import env_utils
 
 
 def policy_test(
