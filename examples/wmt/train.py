@@ -40,10 +40,14 @@ import numpy as np
 import optax
 import tensorflow as tf
 
-import bleu
-import decode
-import input_pipeline
-import models
+# import bleu
+# import decode
+# import input_pipeline
+# import models
+from pynsy.demos.flax.examples.wmt import bleu
+from pynsy.demos.flax.examples.wmt import decode
+from pynsy.demos.flax.examples.wmt import input_pipeline
+from pynsy.demos.flax.examples.wmt import models
 
 
 class TrainState(train_state.TrainState):

@@ -21,8 +21,10 @@ import jax
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-from configs import default
-import train
+from pynsy.demos.flax.examples.wmt.configs import default
+from pynsy.demos.flax.examples.wmt import train
+# from configs import default
+# import train
 
 
 jax.config.update('jax_disable_most_optimizations', True)

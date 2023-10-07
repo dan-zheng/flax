@@ -22,7 +22,8 @@ import ml_collections
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-import tokenizer
+from pynsy.demos.flax.examples.wmt import tokenizer
+# import tokenizer
 
 
 AUTOTUNE = tf.data.AUTOTUNE
